@@ -1,0 +1,6 @@
+owner: ABTSoftware
+repo: SciChart.LicenseWizard
+provider: github
+updaterCacheDirName: scichart_licensing_wizard-updater
+publisherName:
+  - SciChart Ltd

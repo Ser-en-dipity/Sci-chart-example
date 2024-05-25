@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sci-Chart/1.0.0": {
+        "dependencies": {
+          "SciChart": "8.5.0.28148"
+        },
+        "runtime": {
+          "Sci-Chart.dll": {}
+        }
+      },
+      "SciChart/8.5.0.28148": {
+        "runtime": {
+          "lib/net6.0-windows7.0/SciChart.Charting.dll": {
+            "assemblyVersion": "8.5.0.28148",
+            "fileVersion": "8.5.0.28148"
+          },
+          "lib/net6.0-windows7.0/SciChart.Core.dll": {
+            "assemblyVersion": "8.5.0.28148",
+            "fileVersion": "8.5.0.28148"
+          },
+          "lib/net6.0-windows7.0/SciChart.Data.dll": {
+            "assemblyVersion": "8.5.0.28148",
+            "fileVersion": "8.5.0.28148"
+          },
+          "lib/net6.0-windows7.0/SciChart.Drawing.dll": {
+            "assemblyVersion": "8.5.0.28148",
+            "fileVersion": "8.5.0.28148"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sci-Chart/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SciChart/8.5.0.28148": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lQMKNZTisqgNMxUDe+Ri2wtz5LFry1PXXbgtJsB2IZzMOfERDLD9H4QegY0h4oFTb5HX9D1iEE1WQltbPoS/gw==",
+      "path": "scichart/8.5.0.28148",
+      "hashPath": "scichart.8.5.0.28148.nupkg.sha512"
+    }
+  }
+}
