@@ -24,3 +24,4 @@ D:\Sci-Chart\obj\Debug\net8.0-windows\refint\Sci-Chart.dll
 D:\Sci-Chart\obj\Debug\net8.0-windows\Sci-Chart.pdb
 D:\Sci-Chart\obj\Debug\net8.0-windows\Sci-Chart.genruntimeconfig.cache
 D:\Sci-Chart\obj\Debug\net8.0-windows\ref\Sci-Chart.dll
+D:\Sci-Chart\obj\Debug\net8.0-windows\Sci-Chart.sourcelink.json

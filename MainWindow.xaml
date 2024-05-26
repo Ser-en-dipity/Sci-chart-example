@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:Sci_Chart"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
+        Loaded="PointMarkersSelectionExampleView_OnLoaded"
         xmlns:s="http://schemas.abtsoftware.co.uk/scichart"
         >
 
@@ -27,17 +28,24 @@
             <!--  Declare RenderableSeries  -->
             <s:SciChartSurface.RenderableSeries>
             <s:FastLineRenderableSeries x:Name="lineSeries" AntiAliasing="True"
-                                            StrokeThickness="1" StrokeDashArray="2 2"
-                                            Stroke="OrangeRed"/>
-                <s:FastLineRenderableSeries.PointMarker>
+                                            StrokeThickness="2" StrokeDashArray="2 2"
+                                            Stroke="OrangeRed" IsVisible="True">
+                <!-- <s:FastLineRenderableSeries.PointMarker>
                     <s:EllipsePointMarker Fill="#138A43" />
-                </s:FastLineRenderableSeries.PointMarker>
+                </s:FastLineRenderableSeries.PointMarker> -->
                 <s:FastLineRenderableSeries.SelectedPointMarker>
                 <s:EllipsePointMarker Fill="#C4ECA0"
                                     Width="12"
                                     Height="12" />
                 </s:FastLineRenderableSeries.SelectedPointMarker>
+            </s:FastLineRenderableSeries>
             </s:SciChartSurface.RenderableSeries>
+
+            <s:SciChartSurface.ChartModifier>
+                <s:ModifierGroup>
+                    <s:DataPointSelectionModifier Name="PointMarkersSelectionModifier" IsEnabled="True" />        
+                </s:ModifierGroup>
+            </s:SciChartSurface.ChartModifier>
 
             <!--  Create an X Axis with GrowBy  -->
             <s:SciChartSurface.XAxis>

@@ -5,13 +5,6 @@
              StartupUri="MainWindow.xaml"
              xmlns:s="http://schemas.abtsoftware.co.uk/scichart">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary
-                    Source="/SciChart.Examples.ExternalDependencies;component/Resources/Styles/ToolbarButtonsCommon.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-            
-            <s:ColorToBrushConverter x:Key="ColorToBrushConverter" />
-        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>
